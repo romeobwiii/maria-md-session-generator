@@ -14,7 +14,7 @@ res.sendFile(__path + '/pair.html')
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.listen(PORT, () => {
-    console.log(`🥺 maria-md Server running on http://localhost:` + PORT)
+    console.log(`🥺 mulaa-md Server running on http://localhost:` + PORT)
 })
 
 module.exports = app
